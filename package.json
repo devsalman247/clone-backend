@@ -1,0 +1,19 @@
+{
+	"name": "my-github-cloner",
+	"version": "1.0.0",
+	"description": "Clone or download GitHub repositories",
+	"main": "index.js",
+	"bin": {
+		"my-github-cloner": "./index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@octokit/rest": "^21.0.2",
+		"commander": "^12.1.0",
+		"fs-extra": "^11.2.0",
+		"octokit": "^4.0.2",
+		"simple-git": "^3.26.0"
+	}
+}
