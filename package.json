@@ -1,19 +1,32 @@
 {
-	"name": "my-github-cloner",
+	"name": "clone-md-backend",
 	"version": "1.0.0",
 	"description": "Clone or download GitHub repositories",
 	"main": "index.js",
 	"bin": {
-		"my-github-cloner": "./index.js"
+		"clone-md-backend": "./index.js"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"github",
+		"clone",
+		"repository",
+		"download"
+	],
+	"author": "Muhammad Salman <salman247.dev@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devsalman247/clone-backend.git"
+	},
+	"bugs": {
+		"url": "https://github.com/devsalman247/clone-backend/issues"
+	},
+	"homepage": "https://github.com/devsalman247/clone-backend#readme",
 	"dependencies": {
-		"@octokit/rest": "^21.0.2",
 		"commander": "^12.1.0",
 		"fs-extra": "^11.2.0",
 		"octokit": "^4.0.2",
 		"simple-git": "^3.26.0"
-	}
+	},
+	"type": "commonjs"
 }
